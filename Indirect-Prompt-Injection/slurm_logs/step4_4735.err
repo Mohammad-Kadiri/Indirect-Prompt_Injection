@@ -1,0 +1,84 @@
+2026-05-01 19:52:38,283 [INFO] Loading tokenizer: Qwen/Qwen3-8B
+2026-05-01 19:52:38,558 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 19:52:38,559 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 19:52:38,570 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-01 19:52:38,841 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 19:52:38,853 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-01 19:52:39,098 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-01 19:52:39,346 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-01 19:52:40,152 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B "HTTP/1.1 200 OK"
+2026-05-01 19:52:40,153 [INFO] Loading model Qwen/Qwen3-8B in bf16 (eager attention)…
+2026-05-01 19:52:40,367 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 19:52:40,375 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-01 19:52:41,735 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 19:52:41,745 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:18,  5.07it/s]Loading weights:   1%|          | 2/399 [00:00<01:40,  3.96it/s]Loading weights:   4%|▍         | 16/399 [00:00<00:10, 35.60it/s]Loading weights:   7%|▋         | 26/399 [00:00<00:07, 49.27it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:05, 63.02it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:04, 70.01it/s]Loading weights:  15%|█▌        | 60/399 [00:01<00:04, 74.98it/s]Loading weights:  18%|█▊        | 71/399 [00:01<00:04, 79.08it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 81.91it/s]Loading weights:  23%|██▎       | 93/399 [00:01<00:03, 83.74it/s]Loading weights:  26%|██▌       | 104/399 [00:01<00:03, 85.67it/s]Loading weights:  29%|██▉       | 115/399 [00:01<00:03, 87.03it/s]Loading weights:  31%|███▏      | 125/399 [00:01<00:03, 85.55it/s]Loading weights:  34%|███▍      | 137/399 [00:01<00:02, 89.41it/s]Loading weights:  37%|███▋      | 148/399 [00:02<00:02, 89.58it/s]Loading weights:  40%|███▉      | 159/399 [00:02<00:02, 90.49it/s]Loading weights:  43%|████▎     | 170/399 [00:02<00:02, 90.71it/s]Loading weights:  45%|████▌     | 181/399 [00:02<00:02, 90.82it/s]Loading weights:  48%|████▊     | 192/399 [00:02<00:02, 90.70it/s]Loading weights:  51%|█████     | 203/399 [00:02<00:02, 90.76it/s]Loading weights:  54%|█████▎    | 214/399 [00:02<00:02, 90.44it/s]Loading weights:  56%|█████▋    | 225/399 [00:02<00:02, 83.53it/s]Loading weights:  59%|█████▉    | 237/399 [00:03<00:01, 88.62it/s]Loading weights:  62%|██████▏   | 248/399 [00:03<00:01, 89.48it/s]Loading weights:  65%|██████▍   | 259/399 [00:03<00:01, 89.65it/s]Loading weights:  68%|██████▊   | 270/399 [00:03<00:01, 89.59it/s]Loading weights:  70%|███████   | 281/399 [00:03<00:01, 89.20it/s]Loading weights:  73%|███████▎  | 291/399 [00:03<00:01, 86.45it/s]Loading weights:  76%|███████▌  | 303/399 [00:03<00:01, 89.70it/s]Loading weights:  79%|███████▊  | 314/399 [00:03<00:00, 90.49it/s]Loading weights:  81%|████████▏ | 325/399 [00:04<00:00, 90.06it/s]Loading weights:  84%|████████▍ | 336/399 [00:04<00:00, 90.09it/s]Loading weights:  87%|████████▋ | 347/399 [00:04<00:00, 90.43it/s]Loading weights:  90%|████████▉ | 358/399 [00:04<00:00, 90.34it/s]Loading weights:  92%|█████████▏| 369/399 [00:04<00:00, 91.40it/s]Loading weights:  95%|█████████▌| 380/399 [00:04<00:00, 92.17it/s]Loading weights:  98%|█████████▊| 391/399 [00:04<00:00, 93.00it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 82.82it/s]
+2026-05-01 19:52:47,557 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 19:52:47,566 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 200 OK"
+2026-05-01 19:52:47,807 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-05-01 19:52:47,817 [INFO] Model loaded successfully.
+2026-05-01 19:52:47,826 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:52:56,219 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:04,147 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:12,080 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:19,986 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:27,908 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:35,818 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:43,727 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:53:51,819 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:54:07,564 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:54:31,296 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:54:39,183 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:54:47,075 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:54:54,970 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:02,880 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:18,605 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:26,645 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:34,538 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:42,432 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:50,326 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:55:58,202 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:06,077 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:13,942 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:21,801 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:29,811 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:37,702 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:45,582 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:56:53,459 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:01,343 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:09,217 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:17,096 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:24,972 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:32,993 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:40,849 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:48,701 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:57:56,551 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:04,420 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:12,284 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:20,140 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:27,999 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:36,008 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:58:43,872 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 19:59:24,135 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:00:04,385 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:00:20,097 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:00:35,787 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:00:59,487 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:01:15,161 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:01:38,990 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:01:46,849 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:01:54,711 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:02,573 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:10,431 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:18,294 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:26,163 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:34,026 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:42,022 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:02:57,733 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:03:05,600 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:03:13,466 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:03:29,170 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:03:52,898 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:04:08,581 [INFO] Registered attention hooks on 36 layers.
+2026-05-01 20:04:24,274 [INFO] Registered attention hooks on 36 layers.

@@ -1,0 +1,43 @@
+========================================
+Job ID: 4618
+Node:   anandi
+Start:  Fri May  1 08:09:46 AM IST 2026
+========================================
+GPU: NVIDIA L40S, 46068 MiB
+Step 5: Weaker model comparison (Qwen2-1.5B-Instruct)...
+============================================================
+Step 5: Weaker Model Comparison
+Model: Qwen/Qwen2-1.5B-Instruct
+============================================================
+Benchmark: 510 cases
+
+──────────────────────────────────────────────────
+Attack type: Ignore Instruction
+  ASR=0.0%  UA=94.0%  (n=50)
+
+──────────────────────────────────────────────────
+Attack type: Stealthy
+  ASR=0.0%  UA=94.0%  (n=50)
+
+──────────────────────────────────────────────────
+Attack type: Combined Attacks
+  ASR=0.0%  UA=94.0%  (n=50)
+
+=================================================================
+FINAL COMPARISON: Ignore Instruction Attack
+=================================================================
+
+Model / Defense                       ASR↓     UA↑    ADR↑
+----------------------------------------------------------
+Qwen2-1.5B  (No Defense)              0.0%   94.0%     N/A
+Qwen3-8B    (No Defense)              0.0%  100.0%    0.0%
+Qwen3-8B    (Repeat Prompt)           0.0%  100.0%    0.0%
+Qwen3-8B    (Delimiting)              0.0%  100.0%    0.0%
+Qwen3-8B    (ICON (Ours))             0.0%  100.0%  100.0%
+
+Results saved to /users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/results/step5_weaker_model_results.json
+Step 5 complete: Fri May  1 08:18:29 AM IST 2026
+Results:
+ignore_instruction        ASR=0.0%  UA=94.0%
+stealthy                  ASR=0.0%  UA=94.0%
+combined_attacks          ASR=0.0%  UA=94.0%

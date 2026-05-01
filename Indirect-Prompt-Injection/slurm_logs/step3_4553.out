@@ -1,0 +1,17 @@
+========================================
+Job ID: 4553
+Node:   anandi
+Start:  Fri May  1 12:30:46 AM IST 2026
+========================================
+GPU: NVIDIA L40S, 46068 MiB
+Step 3: Evaluating ICON on InjectAgent benchmark...
+============================================================
+Step 3: Evaluating ICON on InjectAgent Benchmark
+============================================================
+Benchmark: 510 cases
+
+──────────────────────────────────────────────────
+Attack type: Ignore Instruction
+Step 3 complete: Fri May  1 01:08:50 AM IST 2026
+Results:
+Results file not found

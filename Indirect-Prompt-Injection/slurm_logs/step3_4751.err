@@ -1,0 +1,122 @@
+2026-05-01 22:46:40,941 [INFO] Loading tokenizer: Qwen/Qwen3-8B
+2026-05-01 22:46:41,198 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 22:46:41,199 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-01 22:46:41,208 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-01 22:46:41,469 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 22:46:41,480 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-01 22:46:41,738 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-01 22:46:41,986 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-01 22:46:42,747 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B "HTTP/1.1 200 OK"
+2026-05-01 22:46:42,749 [INFO] Loading model Qwen/Qwen3-8B in bf16 (eager attention)…
+2026-05-01 22:46:42,985 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 22:46:42,995 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-01 22:46:44,366 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 22:46:44,375 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:02,  6.42it/s]Loading weights:   1%|          | 2/399 [00:00<01:08,  5.79it/s]Loading weights:   4%|▍         | 15/399 [00:00<00:08, 45.50it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:05, 63.16it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:04, 72.95it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:04, 79.32it/s]Loading weights:  15%|█▌        | 60/399 [00:00<00:04, 83.72it/s]Loading weights:  18%|█▊        | 70/399 [00:01<00:03, 84.39it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 89.99it/s]Loading weights:  23%|██▎       | 93/399 [00:01<00:03, 91.42it/s]Loading weights:  26%|██▌       | 104/399 [00:01<00:03, 92.52it/s]Loading weights:  29%|██▉       | 115/399 [00:01<00:03, 93.36it/s]Loading weights:  32%|███▏      | 126/399 [00:01<00:02, 94.08it/s]Loading weights:  34%|███▍      | 137/399 [00:01<00:02, 94.84it/s]Loading weights:  37%|███▋      | 148/399 [00:01<00:02, 95.18it/s]Loading weights:  40%|███▉      | 159/399 [00:01<00:02, 95.24it/s]Loading weights:  43%|████▎     | 170/399 [00:02<00:02, 95.40it/s]Loading weights:  45%|████▌     | 181/399 [00:02<00:02, 95.58it/s]Loading weights:  48%|████▊     | 192/399 [00:02<00:02, 95.78it/s]Loading weights:  51%|█████     | 203/399 [00:02<00:02, 96.18it/s]Loading weights:  54%|█████▎    | 214/399 [00:02<00:01, 96.05it/s]Loading weights:  56%|█████▋    | 225/399 [00:02<00:01, 95.90it/s]Loading weights:  59%|█████▉    | 236/399 [00:02<00:01, 95.83it/s]Loading weights:  62%|██████▏   | 247/399 [00:02<00:01, 95.83it/s]Loading weights:  65%|██████▍   | 258/399 [00:03<00:01, 95.52it/s]Loading weights:  67%|██████▋   | 269/399 [00:03<00:01, 95.47it/s]Loading weights:  70%|███████   | 280/399 [00:03<00:01, 94.94it/s]Loading weights:  73%|███████▎  | 291/399 [00:03<00:01, 92.72it/s]Loading weights:  76%|███████▌  | 302/399 [00:03<00:01, 89.59it/s]Loading weights:  78%|███████▊  | 313/399 [00:03<00:00, 88.04it/s]Loading weights:  81%|████████  | 324/399 [00:03<00:00, 87.70it/s]Loading weights:  84%|████████▍ | 335/399 [00:03<00:00, 87.58it/s]Loading weights:  87%|████████▋ | 346/399 [00:03<00:00, 88.10it/s]Loading weights:  89%|████████▉ | 357/399 [00:04<00:00, 88.50it/s]Loading weights:  92%|█████████▏| 368/399 [00:04<00:00, 89.65it/s]Loading weights:  95%|█████████▍| 379/399 [00:04<00:00, 90.45it/s]Loading weights:  98%|█████████▊| 390/399 [00:04<00:00, 91.22it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 88.00it/s]
+2026-05-01 22:46:49,846 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-01 22:46:49,853 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 200 OK"
+2026-05-01 22:46:50,107 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-05-01 22:46:50,117 [INFO] Model loaded successfully.
+ICON:   0%|          | 0/50 [00:00<?, ?it/s]2026-05-01 22:46:50,144 [INFO] Registered attention hooks on 36 layers.
+ICON:   2%|▏         | 1/50 [00:08<06:36,  8.10s/it]2026-05-01 22:46:58,239 [INFO] Registered attention hooks on 36 layers.
+ICON:   4%|▍         | 2/50 [00:15<06:14,  7.80s/it]2026-05-01 22:47:05,836 [INFO] Registered attention hooks on 36 layers.
+ICON:   6%|▌         | 3/50 [00:23<06:02,  7.71s/it]2026-05-01 22:47:13,445 [INFO] Registered attention hooks on 36 layers.
+ICON:   8%|▊         | 4/50 [00:30<05:53,  7.68s/it]2026-05-01 22:47:21,061 [INFO] Registered attention hooks on 36 layers.
+ICON:  10%|█         | 5/50 [00:38<05:44,  7.65s/it]2026-05-01 22:47:28,669 [INFO] Registered attention hooks on 36 layers.
+ICON:  12%|█▏        | 6/50 [00:46<05:35,  7.63s/it]2026-05-01 22:47:36,256 [INFO] Registered attention hooks on 36 layers.
+ICON:  14%|█▍        | 7/50 [00:53<05:27,  7.62s/it]2026-05-01 22:47:43,845 [INFO] Registered attention hooks on 36 layers.
+ICON:  16%|█▌        | 8/50 [01:01<05:19,  7.61s/it]2026-05-01 22:47:51,440 [INFO] Registered attention hooks on 36 layers.
+ICON:  18%|█▊        | 9/50 [01:16<06:51, 10.03s/it]2026-05-01 22:48:06,788 [INFO] Registered attention hooks on 36 layers.
+ICON:  20%|██        | 10/50 [01:24<06:11,  9.28s/it]2026-05-01 22:48:14,385 [INFO] Registered attention hooks on 36 layers.
+ICON:  22%|██▏       | 11/50 [01:31<05:41,  8.76s/it]2026-05-01 22:48:21,975 [INFO] Registered attention hooks on 36 layers.
+ICON:  24%|██▍       | 12/50 [01:39<05:19,  8.40s/it]2026-05-01 22:48:29,558 [INFO] Registered attention hooks on 36 layers.
+ICON:  26%|██▌       | 13/50 [01:47<05:01,  8.16s/it]2026-05-01 22:48:37,151 [INFO] Registered attention hooks on 36 layers.
+ICON:  28%|██▊       | 14/50 [01:54<04:47,  7.99s/it]2026-05-01 22:48:44,738 [INFO] Registered attention hooks on 36 layers.
+ICON:  30%|███       | 15/50 [02:02<04:35,  7.86s/it]2026-05-01 22:48:52,322 [INFO] Registered attention hooks on 36 layers.
+ICON:  32%|███▏      | 16/50 [02:09<04:24,  7.79s/it]2026-05-01 22:48:59,937 [INFO] Registered attention hooks on 36 layers.
+ICON:  34%|███▍      | 17/50 [02:17<04:15,  7.74s/it]2026-05-01 22:49:07,578 [INFO] Registered attention hooks on 36 layers.
+ICON:  36%|███▌      | 18/50 [02:25<04:06,  7.71s/it]2026-05-01 22:49:15,211 [INFO] Registered attention hooks on 36 layers.
+ICON:  38%|███▊      | 19/50 [02:32<03:57,  7.68s/it]2026-05-01 22:49:22,808 [INFO] Registered attention hooks on 36 layers.
+ICON:  40%|████      | 20/50 [02:40<03:49,  7.65s/it]2026-05-01 22:49:30,409 [INFO] Registered attention hooks on 36 layers.
+ICON:  42%|████▏     | 21/50 [02:47<03:41,  7.64s/it]2026-05-01 22:49:38,016 [INFO] Registered attention hooks on 36 layers.
+ICON:  44%|████▍     | 22/50 [02:55<03:33,  7.63s/it]2026-05-01 22:49:45,612 [INFO] Registered attention hooks on 36 layers.
+ICON:  46%|████▌     | 23/50 [03:03<03:25,  7.62s/it]2026-05-01 22:49:53,210 [INFO] Registered attention hooks on 36 layers.
+ICON:  48%|████▊     | 24/50 [03:10<03:17,  7.61s/it]2026-05-01 22:50:00,804 [INFO] Registered attention hooks on 36 layers.
+ICON:  50%|█████     | 25/50 [03:18<03:10,  7.61s/it]2026-05-01 22:50:08,399 [INFO] Registered attention hooks on 36 layers.
+ICON:  52%|█████▏    | 26/50 [03:25<03:02,  7.60s/it]2026-05-01 22:50:15,990 [INFO] Registered attention hooks on 36 layers.
+ICON:  54%|█████▍    | 27/50 [03:33<02:54,  7.60s/it]2026-05-01 22:50:23,586 [INFO] Registered attention hooks on 36 layers.
+ICON:  56%|█████▌    | 28/50 [03:41<02:47,  7.60s/it]2026-05-01 22:50:31,181 [INFO] Registered attention hooks on 36 layers.
+ICON:  58%|█████▊    | 29/50 [03:48<02:39,  7.60s/it]2026-05-01 22:50:38,775 [INFO] Registered attention hooks on 36 layers.
+ICON:  60%|██████    | 30/50 [04:03<03:17,  9.86s/it]2026-05-01 22:50:53,912 [INFO] Registered attention hooks on 36 layers.
+ICON:  62%|██████▏   | 31/50 [04:11<02:54,  9.18s/it]2026-05-01 22:51:01,499 [INFO] Registered attention hooks on 36 layers.
+ICON:  64%|██████▍   | 32/50 [04:18<02:36,  8.70s/it]2026-05-01 22:51:09,093 [INFO] Registered attention hooks on 36 layers.
+ICON:  66%|██████▌   | 33/50 [04:26<02:22,  8.37s/it]2026-05-01 22:51:16,684 [INFO] Registered attention hooks on 36 layers.
+ICON:  68%|██████▊   | 34/50 [04:34<02:10,  8.15s/it]2026-05-01 22:51:24,318 [INFO] Registered attention hooks on 36 layers.
+ICON:  70%|███████   | 35/50 [04:41<01:59,  7.99s/it]2026-05-01 22:51:31,954 [INFO] Registered attention hooks on 36 layers.
+ICON:  72%|███████▏  | 36/50 [04:49<01:50,  7.88s/it]2026-05-01 22:51:39,582 [INFO] Registered attention hooks on 36 layers.
+ICON:  74%|███████▍  | 37/50 [04:57<01:41,  7.81s/it]2026-05-01 22:51:47,210 [INFO] Registered attention hooks on 36 layers.
+ICON:  76%|███████▌  | 38/50 [05:04<01:33,  7.75s/it]2026-05-01 22:51:54,836 [INFO] Registered attention hooks on 36 layers.
+ICON:  78%|███████▊  | 39/50 [05:12<01:24,  7.70s/it]2026-05-01 22:52:02,428 [INFO] Registered attention hooks on 36 layers.
+ICON:  80%|████████  | 40/50 [05:27<01:39,  9.92s/it]2026-05-01 22:52:17,511 [INFO] Registered attention hooks on 36 layers.
+ICON:  82%|████████▏ | 41/50 [05:42<01:43, 11.54s/it]2026-05-01 22:52:32,823 [INFO] Registered attention hooks on 36 layers.
+ICON:  84%|████████▍ | 42/50 [05:50<01:22, 10.35s/it]2026-05-01 22:52:40,411 [INFO] Registered attention hooks on 36 layers.
+ICON:  86%|████████▌ | 43/50 [06:29<02:13, 19.09s/it]2026-05-01 22:53:19,879 [INFO] Registered attention hooks on 36 layers.
+ICON:  88%|████████▊ | 44/50 [06:37<01:33, 15.63s/it]2026-05-01 22:53:27,457 [INFO] Registered attention hooks on 36 layers.
+ICON:  90%|█████████ | 45/50 [06:44<01:06, 13.22s/it]2026-05-01 22:53:35,033 [INFO] Registered attention hooks on 36 layers.
+ICON:  92%|█████████▏| 46/50 [06:52<00:46, 11.52s/it]2026-05-01 22:53:42,602 [INFO] Registered attention hooks on 36 layers.
+ICON:  94%|█████████▍| 47/50 [07:00<00:31, 10.34s/it]2026-05-01 22:53:50,184 [INFO] Registered attention hooks on 36 layers.
+ICON:  96%|█████████▌| 48/50 [07:07<00:19,  9.51s/it]2026-05-01 22:53:57,755 [INFO] Registered attention hooks on 36 layers.
+ICON:  98%|█████████▊| 49/50 [07:15<00:08,  8.93s/it]2026-05-01 22:54:05,327 [INFO] Registered attention hooks on 36 layers.
+ICON: 100%|██████████| 50/50 [07:22<00:00,  8.52s/it]ICON: 100%|██████████| 50/50 [07:22<00:00,  8.86s/it]
+ICON:   0%|          | 0/50 [00:00<?, ?it/s]2026-05-01 22:54:12,913 [INFO] Registered attention hooks on 36 layers.
+ICON:   2%|▏         | 1/50 [00:07<06:11,  7.58s/it]2026-05-01 22:54:20,495 [INFO] Registered attention hooks on 36 layers.
+ICON:   4%|▍         | 2/50 [00:15<06:03,  7.58s/it]2026-05-01 22:54:28,067 [INFO] Registered attention hooks on 36 layers.
+ICON:   6%|▌         | 3/50 [00:22<05:56,  7.58s/it]2026-05-01 22:54:35,660 [INFO] Registered attention hooks on 36 layers.
+ICON:   8%|▊         | 4/50 [00:30<05:48,  7.59s/it]2026-05-01 22:54:43,247 [INFO] Registered attention hooks on 36 layers.
+ICON:  10%|█         | 5/50 [00:37<05:41,  7.58s/it]2026-05-01 22:54:50,825 [INFO] Registered attention hooks on 36 layers.
+ICON:  12%|█▏        | 6/50 [00:45<05:33,  7.58s/it]2026-05-01 22:54:58,407 [INFO] Registered attention hooks on 36 layers.
+ICON:  14%|█▍        | 7/50 [00:53<05:26,  7.59s/it]2026-05-01 22:55:05,998 [INFO] Registered attention hooks on 36 layers.
+ICON:  16%|█▌        | 8/50 [01:00<05:18,  7.59s/it]2026-05-01 22:55:13,597 [INFO] Registered attention hooks on 36 layers.
+ICON:  18%|█▊        | 9/50 [01:08<05:11,  7.59s/it]2026-05-01 22:55:21,185 [INFO] Registered attention hooks on 36 layers.
+ICON:  20%|██        | 10/50 [01:15<05:03,  7.59s/it]2026-05-01 22:55:28,786 [INFO] Registered attention hooks on 36 layers.
+ICON:  22%|██▏       | 11/50 [01:23<04:56,  7.61s/it]2026-05-01 22:55:36,422 [INFO] Registered attention hooks on 36 layers.
+ICON:  24%|██▍       | 12/50 [01:31<04:48,  7.60s/it]2026-05-01 22:55:44,016 [INFO] Registered attention hooks on 36 layers.
+ICON:  26%|██▌       | 13/50 [01:38<04:41,  7.60s/it]2026-05-01 22:55:51,616 [INFO] Registered attention hooks on 36 layers.
+ICON:  28%|██▊       | 14/50 [01:46<04:33,  7.60s/it]2026-05-01 22:55:59,224 [INFO] Registered attention hooks on 36 layers.
+ICON:  30%|███       | 15/50 [01:53<04:26,  7.61s/it]2026-05-01 22:56:06,833 [INFO] Registered attention hooks on 36 layers.
+ICON:  32%|███▏      | 16/50 [02:01<04:18,  7.61s/it]2026-05-01 22:56:14,439 [INFO] Registered attention hooks on 36 layers.
+ICON:  34%|███▍      | 17/50 [02:09<04:11,  7.61s/it]2026-05-01 22:56:22,053 [INFO] Registered attention hooks on 36 layers.
+ICON:  36%|███▌      | 18/50 [02:24<05:18,  9.94s/it]2026-05-01 22:56:37,431 [INFO] Registered attention hooks on 36 layers.
+ICON:  38%|███▊      | 19/50 [02:32<04:46,  9.24s/it]2026-05-01 22:56:45,030 [INFO] Registered attention hooks on 36 layers.
+ICON:  40%|████      | 20/50 [02:39<04:22,  8.75s/it]2026-05-01 22:56:52,636 [INFO] Registered attention hooks on 36 layers.
+ICON:  42%|████▏     | 21/50 [02:47<04:03,  8.41s/it]2026-05-01 22:57:00,247 [INFO] Registered attention hooks on 36 layers.
+ICON:  44%|████▍     | 22/50 [02:54<03:48,  8.17s/it]2026-05-01 22:57:07,855 [INFO] Registered attention hooks on 36 layers.
+ICON:  46%|████▌     | 23/50 [03:02<03:35,  8.00s/it]2026-05-01 22:57:15,464 [INFO] Registered attention hooks on 36 layers.
+ICON:  48%|████▊     | 24/50 [03:10<03:24,  7.88s/it]2026-05-01 22:57:23,080 [INFO] Registered attention hooks on 36 layers.
+ICON:  50%|█████     | 25/50 [03:17<03:15,  7.80s/it]2026-05-01 22:57:30,694 [INFO] Registered attention hooks on 36 layers.
+ICON:  52%|█████▏    | 26/50 [03:25<03:06,  7.76s/it]2026-05-01 22:57:38,341 [INFO] Registered attention hooks on 36 layers.
+ICON:  54%|█████▍    | 27/50 [03:33<02:57,  7.72s/it]2026-05-01 22:57:45,990 [INFO] Registered attention hooks on 36 layers.
+ICON:  56%|█████▌    | 28/50 [03:40<02:49,  7.70s/it]2026-05-01 22:57:53,637 [INFO] Registered attention hooks on 36 layers.
+ICON:  58%|█████▊    | 29/50 [03:48<02:41,  7.68s/it]2026-05-01 22:58:01,272 [INFO] Registered attention hooks on 36 layers.
+ICON:  60%|██████    | 30/50 [03:55<02:33,  7.66s/it]2026-05-01 22:58:08,895 [INFO] Registered attention hooks on 36 layers.
+ICON:  62%|██████▏   | 31/50 [04:03<02:25,  7.65s/it]2026-05-01 22:58:16,521 [INFO] Registered attention hooks on 36 layers.
+ICON:  64%|██████▍   | 32/50 [04:11<02:17,  7.64s/it]2026-05-01 22:58:24,131 [INFO] Registered attention hooks on 36 layers.
+ICON:  66%|██████▌   | 33/50 [04:18<02:09,  7.63s/it]2026-05-01 22:58:31,724 [INFO] Registered attention hooks on 36 layers.
+ICON:  68%|██████▊   | 34/50 [04:26<02:01,  7.62s/it]2026-05-01 22:58:39,345 [INFO] Registered attention hooks on 36 layers.
+ICON:  70%|███████   | 35/50 [04:41<02:29,  9.98s/it]2026-05-01 22:58:54,807 [INFO] Registered attention hooks on 36 layers.
+ICON:  72%|███████▏  | 36/50 [04:49<02:09,  9.27s/it]2026-05-01 22:59:02,415 [INFO] Registered attention hooks on 36 layers.
+ICON:  74%|███████▍  | 37/50 [04:57<01:53,  8.76s/it]2026-05-01 22:59:09,995 [INFO] Registered attention hooks on 36 layers.
+ICON:  76%|███████▌  | 38/50 [05:04<01:40,  8.41s/it]2026-05-01 22:59:17,594 [INFO] Registered attention hooks on 36 layers.
+ICON:  78%|███████▊  | 39/50 [05:12<01:29,  8.17s/it]2026-05-01 22:59:25,187 [INFO] Registered attention hooks on 36 layers.
+ICON:  80%|████████  | 40/50 [05:19<01:19,  7.99s/it]2026-05-01 22:59:32,774 [INFO] Registered attention hooks on 36 layers.
+ICON:  82%|████████▏ | 41/50 [05:27<01:10,  7.87s/it]2026-05-01 22:59:40,369 [INFO] Registered attention hooks on 36 layers.
+ICON:  84%|████████▍ | 42/50 [05:42<01:20, 10.11s/it]2026-05-01 22:59:55,691 [INFO] Registered attention hooks on 36 layers.
+ICON:  86%|████████▌ | 43/50 [05:50<01:05,  9.35s/it]2026-05-01 23:00:03,288 [INFO] Registered attention hooks on 36 layers.
+ICON:  88%|████████▊ | 44/50 [05:57<00:52,  8.83s/it]2026-05-01 23:00:10,894 [INFO] Registered attention hooks on 36 layers.
+ICON:  90%|█████████ | 45/50 [06:13<00:53, 10.79s/it]2026-05-01 23:00:26,250 [INFO] Registered attention hooks on 36 layers.
+ICON:  92%|█████████▏| 46/50 [06:28<00:48, 12.15s/it]2026-05-01 23:00:41,581 [INFO] Registered attention hooks on 36 layers.
+ICON:  94%|█████████▍| 47/50 [06:36<00:32, 10.79s/it]2026-05-01 23:00:49,181 [INFO] Registered attention hooks on 36 layers.
+ICON:  96%|█████████▌| 48/50 [06:43<00:19,  9.83s/it]2026-05-01 23:00:56,784 [INFO] Registered attention hooks on 36 layers.
+ICON:  98%|█████████▊| 49/50 [06:51<00:09,  9.17s/it]2026-05-01 23:01:04,414 [INFO] Registered attention hooks on 36 layers.
+ICON: 100%|██████████| 50/50 [06:59<00:00,  8.70s/it]ICON: 100%|██████████| 50/50 [06:59<00:00,  8.38s/it]

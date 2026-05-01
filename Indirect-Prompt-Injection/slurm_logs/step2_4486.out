@@ -1,0 +1,13 @@
+========================================
+Job ID: 4486
+Node:   anandi
+Start:  Thu Apr 30 06:33:04 PM IST 2026
+========================================
+GPU: NVIDIA L40S, 46068 MiB
+Step 2: Training LSTP probe...
+============================================================
+Step 2: LSTP Training
+============================================================
+Loaded dataset: 255 samples
+Step 2 complete: Thu Apr 30 06:33:36 PM IST 2026
+Checkpoint size: not found

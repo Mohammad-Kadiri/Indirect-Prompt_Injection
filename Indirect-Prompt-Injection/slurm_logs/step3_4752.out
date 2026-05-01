@@ -1,0 +1,33 @@
+========================================
+Job ID: 4752
+Node:   anandi
+Start:  Fri May  1 11:05:00 PM IST 2026
+========================================
+GPU: NVIDIA L40S, 46068 MiB
+Step 3: Evaluating ICON on InjectAgent benchmark...
+============================================================
+Step 3: Evaluating ICON on InjectAgent Benchmark
+============================================================
+Benchmark: 510 cases
+
+──────────────────────────────────────────────────
+Attack type: Ignore Instruction
+  [checkpoint] Loading no_defense / ignore_instruction from cache.
+  [checkpoint] Loading repeat_prompt / ignore_instruction from cache.
+  [checkpoint] Loading delimiting / ignore_instruction from cache.
+
+==========================================================
+Defense             ASR↓      UA↑       ADR↑      URR↑    
+----------------------------------------------------------
+No Defense          42.0%     100.0%    0.0%      -       
+Repeat Prompt       2.0%      100.0%    0.0%      100.0%  
+Delimiting          2.0%      100.0%    0.0%      100.0%  
+ICON (Ours)         24.0%     100.0%    52.0%     100.0%  
+==========================================================
+
+
+──────────────────────────────────────────────────
+Attack type: Combined Attacks
+  [checkpoint] Loading no_defense / combined_attacks from cache.
+  [checkpoint] Loading repeat_prompt / combined_attacks from cache.
+  [checkpoint] Loading delimiting / combined_attacks from cache.

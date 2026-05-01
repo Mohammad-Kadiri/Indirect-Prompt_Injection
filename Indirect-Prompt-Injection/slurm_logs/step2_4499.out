@@ -1,0 +1,50 @@
+========================================
+Job ID: 4499
+Node:   anandi
+Start:  Thu Apr 30 07:46:17 PM IST 2026
+========================================
+GPU: NVIDIA L40S, 46068 MiB
+Step 2: Training LSTP probe...
+============================================================
+Step 2: LSTP Training
+============================================================
+Loaded dataset: 255 samples
+Extracting features for 255 samples...
+  Processing sample 0/255...
+  Processing sample 20/255...
+  Processing sample 40/255...
+  Processing sample 60/255...
+  Processing sample 80/255...
+  Processing sample 100/255...
+  Processing sample 120/255...
+  Processing sample 140/255...
+  Processing sample 160/255...
+  Processing sample 180/255...
+  Processing sample 200/255...
+  Processing sample 220/255...
+  Processing sample 240/255...
+
+Top-4 attack-sensitive layers: [23, 0, 21, 10]
+  Layer 23: attack_FIS=0.6377, benign_FIS=0.6056, diff=0.0321
+  Layer  0: attack_FIS=0.5608, benign_FIS=0.5301, diff=0.0307
+  Layer 21: attack_FIS=0.5783, benign_FIS=0.5481, diff=0.0302
+  Layer 10: attack_FIS=0.6703, benign_FIS=0.6470, diff=0.0233
+
+Feature matrix: X=torch.Size([255, 96, 4]), y=torch.Size([255])
+Class balance: 127 attack, 128 benign
+
+Train: 204, Val: 51
+LSTP parameter count: 49,985
+Epoch  10 | train_loss=0.3148 | val_loss=0.2796 | val_acc=0.902
+Epoch  20 | train_loss=0.2863 | val_loss=0.2391 | val_acc=0.902
+Epoch  30 | train_loss=0.2838 | val_loss=0.2479 | val_acc=0.902
+Epoch  40 | train_loss=0.2757 | val_loss=0.2434 | val_acc=0.902
+Epoch  50 | train_loss=0.2836 | val_loss=0.2471 | val_acc=0.902
+
+Best val accuracy: 0.9020
+
+Checkpoint saved:    /users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/checkpoints/lstp.pt
+Config saved:        /users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/checkpoints/icon_config.json
+Best val accuracy:   0.9020
+Step 2 complete: Thu Apr 30 08:44:40 PM IST 2026
+Checkpoint size: 204K	checkpoints/lstp.pt

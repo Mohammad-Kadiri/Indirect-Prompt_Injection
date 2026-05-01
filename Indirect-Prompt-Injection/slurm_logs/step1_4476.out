@@ -1,0 +1,23 @@
+========================================
+Job ID: 4476
+Node:   anandi
+Start:  Thu Apr 30 05:57:38 PM IST 2026
+========================================
+Python: /users/student/idddp/mohammad.k/IE 624/.env624/bin/python
+Step 1: Synthesizing IPI dataset...
+============================================================
+Step 1: Adaptive Attack Data Synthesis
+============================================================
+No OpenAI API key — using rule-based payload generator (fallback).
+Synthesized 255 samples (127 attack, 128 benign)
+
+Dataset saved: /users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/data/ipi_dataset.json
+Total samples: 255
+  Attack:  127
+  Benign:  128
+
+Loading InjectAgent benchmark...
+Downloading InjectAgent benchmark...
+Download failed: HTTP Error 404: Not Found. Using synthetic scenarios instead.
+InjectAgent benchmark: 120 test cases → /users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/data/injectagent_benchmark.json
+Step 1 complete: Thu Apr 30 05:57:49 PM IST 2026

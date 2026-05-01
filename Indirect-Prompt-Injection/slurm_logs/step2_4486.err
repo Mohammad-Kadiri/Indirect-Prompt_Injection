@@ -1,0 +1,91 @@
+2026-04-30 18:33:28,228 [INFO] Loading tokenizer: Qwen/Qwen3-8B
+2026-04-30 18:33:28,527 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 18:33:28,528 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-04-30 18:33:28,535 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-04-30 18:33:28,801 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 18:33:28,810 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-04-30 18:33:29,075 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-04-30 18:33:29,321 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-04-30 18:33:30,045 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B "HTTP/1.1 200 OK"
+2026-04-30 18:33:30,050 [INFO] Loading model Qwen/Qwen3-8B in 4-bit NF4 (eager attention)…
+2026-04-30 18:33:30,282 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 18:33:30,290 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+2026-04-30 18:33:32,570 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-04-30 18:33:32,579 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+/tmp/tmpth9u819v/main.c:5:10: fatal error: Python.h: No such file or directory
+    5 | #include <Python.h>
+      |          ^~~~~~~~~~
+compilation terminated.
+Traceback (most recent call last):
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/step2_train.py", line 205, in <module>
+    main(parser.parse_args())
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/step2_train.py", line 144, in main
+    model, tokenizer = load_model_and_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/src/utils.py", line 58, in load_model_and_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 394, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/modeling_utils.py", line 4130, in from_pretrained
+    hf_quantizer, config, device_map = get_hf_quantizer(
+                                       ^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/quantizers/auto.py", line 342, in get_hf_quantizer
+    hf_quantizer.validate_environment(
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/quantizers/quantizer_bnb_4bit.py", line 66, in validate_environment
+    from ..integrations import validate_bnb_backend_availability
+  File "<frozen importlib._bootstrap>", line 1412, in _handle_fromlist
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2212, in __getattr__
+    module = self._get_module(self._class_to_module[name])
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2446, in _get_module
+    raise e
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/utils/import_utils.py", line 2444, in _get_module
+    return importlib.import_module("." + module_name, self.__name__)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/integrations/bitsandbytes.py", line 15, in <module>
+    import bitsandbytes as bnb
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/bitsandbytes/__init__.py", line 20, in <module>
+    from .nn import modules
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/bitsandbytes/nn/__init__.py", line 21, in <module>
+    from .triton_based_modules import (
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/bitsandbytes/nn/triton_based_modules.py", line 6, in <module>
+    from bitsandbytes.triton.dequantize_rowwise import dequantize_rowwise
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/bitsandbytes/triton/dequantize_rowwise.py", line 18, in <module>
+    @triton.autotune(
+     ^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/autotuner.py", line 368, in decorator
+    return Autotuner(fn, fn.arg_names, configs, key, reset_to_zero, restore_value, pre_hook=pre_hook,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/autotuner.py", line 130, in __init__
+    self.do_bench = driver.active.get_benchmarker()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/driver.py", line 23, in __getattr__
+    self._initialize_obj()
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/driver.py", line 20, in _initialize_obj
+    self._obj = self._init_fn()
+                ^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/driver.py", line 9, in _create_driver
+    return actives[0]()
+           ^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/backends/nvidia/driver.py", line 450, in __init__
+    self.utils = CudaUtils()  # TODO: make static
+                 ^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/backends/nvidia/driver.py", line 80, in __init__
+    mod = compile_module_from_src(Path(os.path.join(dirname, "driver.c")).read_text(), "cuda_utils")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/backends/nvidia/driver.py", line 57, in compile_module_from_src
+    so = _build(name, src_path, tmpdir, library_dirs(), include_dir, libraries)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/runtime/build.py", line 50, in _build
+    ret = subprocess.check_call(cc_cmd)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['/usr/bin/gcc', '/tmp/tmpth9u819v/main.c', '-O3', '-shared', '-fPIC', '-Wno-psabi', '-o', '/tmp/tmpth9u819v/cuda_utils.cpython-312-x86_64-linux-gnu.so', '-lcuda', '-L/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/backends/nvidia/lib', '-L/lib/x86_64-linux-gnu', '-I/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/triton/backends/nvidia/include', '-I/tmp/tmpth9u819v', '-I/usr/include/python3.12']' returned non-zero exit status 1.

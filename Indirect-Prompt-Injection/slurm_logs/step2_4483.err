@@ -1,0 +1,29 @@
+/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/utils/hub.py:128: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+2026-04-30 18:11:01,446 [INFO] Loading tokenizer: Qwen/Qwen3-8B
+2026-04-30 18:11:05,734 [INFO] Loading model Qwen/Qwen3-8B in 4-bit NF4 (eager attention)…
+Traceback (most recent call last):
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1038, in from_pretrained
+    config_class = CONFIG_MAPPING[config_dict["model_type"]]
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 740, in __getitem__
+    raise KeyError(key)
+KeyError: 'qwen3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/step2_train.py", line 205, in <module>
+    main(parser.parse_args())
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/step2_train.py", line 144, in main
+    model, tokenizer = load_model_and_tokenizer()
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/Indirect-Prompt-Injection/src/utils.py", line 58, in load_model_and_tokenizer
+    model = AutoModelForCausalLM.from_pretrained(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 526, in from_pretrained
+    config, kwargs = AutoConfig.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/users/student/idddp/mohammad.k/IE 624/.env624/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py", line 1040, in from_pretrained
+    raise ValueError(
+ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.

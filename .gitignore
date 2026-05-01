@@ -1,0 +1,6 @@
+Quiz 4/
+.hf_cache/
+.env624/
+__pycache__/
+*.pyc
+*.pth
