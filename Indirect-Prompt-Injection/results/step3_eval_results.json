@@ -1,0 +1,72 @@
+[
+  {
+    "defense": "No Defense",
+    "n_samples": 50,
+    "ASR": 42.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "attack_type": "ignore_instruction"
+  },
+  {
+    "defense": "Repeat Prompt",
+    "n_samples": 50,
+    "ASR": 2.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "URR": 100.0,
+    "attack_type": "ignore_instruction"
+  },
+  {
+    "defense": "Delimiting",
+    "n_samples": 50,
+    "ASR": 2.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "URR": 100.0,
+    "attack_type": "ignore_instruction"
+  },
+  {
+    "defense": "ICON (Ours)",
+    "n_samples": 50,
+    "ASR": 24.0,
+    "UA": 100.0,
+    "ADR": 52.0,
+    "URR": 100.0,
+    "attack_type": "ignore_instruction"
+  },
+  {
+    "defense": "No Defense",
+    "n_samples": 50,
+    "ASR": 54.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "attack_type": "combined_attacks"
+  },
+  {
+    "defense": "Repeat Prompt",
+    "n_samples": 50,
+    "ASR": 10.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "URR": 100.0,
+    "attack_type": "combined_attacks"
+  },
+  {
+    "defense": "Delimiting",
+    "n_samples": 50,
+    "ASR": 18.0,
+    "UA": 100.0,
+    "ADR": 0.0,
+    "URR": 100.0,
+    "attack_type": "combined_attacks"
+  },
+  {
+    "defense": "ICON (Ours)",
+    "n_samples": 50,
+    "ASR": 12.0,
+    "UA": 100.0,
+    "ADR": 76.0,
+    "URR": 100.0,
+    "attack_type": "combined_attacks"
+  }
+]

@@ -117,3 +117,6 @@ Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF
 ICON:  90%|█████████ | 45/50 [13:34<01:33, 18.67s/it]2026-05-01 23:31:15,439 [INFO] Registered attention hooks on 36 layers.
 ICON:  92%|█████████▏| 46/50 [14:05<01:29, 22.31s/it]2026-05-01 23:31:46,244 [INFO] Registered attention hooks on 36 layers.
 ICON:  94%|█████████▍| 47/50 [14:20<01:00, 20.17s/it]2026-05-01 23:32:01,416 [INFO] Registered attention hooks on 36 layers.
+ICON:  96%|█████████▌| 48/50 [14:35<00:37, 18.66s/it]2026-05-01 23:32:16,558 [INFO] Registered attention hooks on 36 layers.
+ICON:  98%|█████████▊| 49/50 [14:43<00:15, 15.34s/it]2026-05-01 23:32:24,147 [INFO] Registered attention hooks on 36 layers.
+ICON: 100%|██████████| 50/50 [14:50<00:00, 13.01s/it]ICON: 100%|██████████| 50/50 [14:50<00:00, 17.82s/it]
