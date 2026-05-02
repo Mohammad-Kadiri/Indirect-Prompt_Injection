@@ -1,0 +1,27 @@
+% Step 3 — InjectAgent Benchmark Results
+\begin{table}[h]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Defense} & \textbf{ASR↓} & \textbf{UA↑} & \textbf{ADR↑} & \textbf{URR↑} \\
+\midrule
+\multicolumn{5}{c}{\textit{Attack Type: Ignore Instruction}} \\
+\midrule
+No Defense        & 42\% & 100\% & —    & —    \\
+Repeat Prompt     &  2\% & 100\% & 0\%  & 100\% \\
+Delimiting        &  2\% & 100\% & 0\%  & 100\% \\
+\rowcolor{teal!12}
+\textbf{ICON (Ours)} & \textbf{24\%} & \textbf{100\%} & \textbf{52\%} & \textbf{100\%} \\
+\midrule
+\multicolumn{5}{c}{\textit{Attack Type: Combined Attacks}} \\
+\midrule
+No Defense        & 54\% & 100\% & —    & —    \\
+Repeat Prompt     & 10\% & 100\% & 0\%  & 100\% \\
+Delimiting        & 18\% & 100\% & 0\%  & 100\% \\
+\rowcolor{teal!12}
+\textbf{ICON (Ours)} & \textbf{12\%} & \textbf{100\%} & \textbf{76\%} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}

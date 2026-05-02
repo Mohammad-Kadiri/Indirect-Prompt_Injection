@@ -1,0 +1,52 @@
+% FIS Intuition — benign (diffuse) vs attack (concentrated) attention
+\begin{tikzpicture}[font=\scriptsize]
+
+  % ── Left panel: Benign — diffuse attention ───────────────────────────────
+  \foreach \x in {0,0.45,0.90,1.35,1.80} {
+    \foreach \y in {0,0.45,0.90,1.35,1.80} {
+      \fill[blue!22] (\x,\y) rectangle (\x+0.40,\y+0.40);
+      \draw[gray!40, very thin] (\x,\y) rectangle (\x+0.40,\y+0.40);
+    }
+  }
+  \node[above, font=\small\bfseries] at (1.10, 2.30) {Benign};
+  \node[above, font=\tiny] at (1.10, 2.05) {Diffuse attention};
+  \node[below, font=\small] at (1.10,-0.20) {FIS $\approx$ 0.43};
+  % Label axes
+  \node[left, rotate=90, font=\tiny, text=gray] at (-0.15, 1.10) {Query tokens ($N_Y$)};
+  \node[below, font=\tiny, text=gray] at (1.10,-0.55) {Key tokens ($N$)};
+
+  % ── Right panel: Under Attack — concentrated attention ───────────────────
+  \begin{scope}[xshift=3.6cm]
+    % Background — very light
+    \foreach \x in {0,0.45,0.90,1.35,1.80} {
+      \foreach \y in {0,0.45,0.90,1.35,1.80} {
+        \fill[blue!6] (\x,\y) rectangle (\x+0.40,\y+0.40);
+        \draw[gray!40, very thin] (\x,\y) rectangle (\x+0.40,\y+0.40);
+      }
+    }
+    % Concentrated cells — injection tokens
+    \fill[red!85] (0.90,0.45) rectangle (1.30,0.85);
+    \fill[red!90] (0.90,0.90) rectangle (1.30,1.30);
+    \fill[red!80] (0.90,1.35) rectangle (1.30,1.75);
+    \fill[red!75] (1.35,0.90) rectangle (1.75,1.30);
+    \fill[red!70] (0.45,0.90) rectangle (0.85,1.30);
+    % Redraw borders on top
+    \foreach \x in {0.90,1.35,0.45} {
+      \foreach \y in {0.45,0.90,1.35} {
+        \draw[gray!40, very thin] (\x,\y) rectangle (\x+0.40,\y+0.40);
+      }
+    }
+    % Bracket annotation for injection tokens
+    \draw[red, thick, ->] (1.80, 1.10) -- (1.40, 1.10)
+          node[right=1pt, font=\tiny, text=red, xshift=4pt] at (1.85,1.10)
+          {injection\\tokens};
+    \node[above, font=\small\bfseries] at (1.10, 2.30) {Under Attack};
+    \node[above, font=\tiny] at (1.10, 2.05) {Concentrated attention};
+    \node[below, font=\small] at (1.10,-0.20) {FIS $\approx$ 0.66};
+  \end{scope}
+
+  % ── Arrow between panels ─────────────────────────────────────────────────
+  \draw[->, very thick, orange!80!black] (2.45, 1.10) -- (3.30, 1.10)
+        node[midway, above, font=\tiny]{injection};
+
+\end{tikzpicture}

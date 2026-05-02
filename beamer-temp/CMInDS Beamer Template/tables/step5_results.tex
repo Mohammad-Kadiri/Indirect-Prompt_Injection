@@ -1,0 +1,22 @@
+% Step 5 — Weaker Model Comparison
+\begin{table}[h]
+\centering
+\scriptsize
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{llccc}
+\toprule
+\textbf{Model} & \textbf{Defense} & \textbf{ASR↓} & \textbf{UA↑} & \textbf{ADR↑} \\
+\midrule
+Qwen2-1.5B & No Defense       & 30\% & 58\%  & — \\
+\midrule
+Qwen3-8B   & No Defense       & 42\% & 100\% & 0\% \\
+Qwen3-8B   & Repeat Prompt    &  2\% & 100\% & 0\% \\
+Qwen3-8B   & Delimiting       &  2\% & 100\% & 0\% \\
+\rowcolor{teal!12}
+\textbf{Qwen3-8B} & \textbf{ICON (Ours)} & \textbf{24\%} & \textbf{100\%} & \textbf{52\%} \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+
+{\tiny \textbf{Key insight:} Qwen2-1.5B has lower ASR (30\%) but also lower UA (58\%) — the weaker model is harder to hijack but also less useful. Qwen3-8B + ICON achieves a better security/utility tradeoff.}
+\end{table}

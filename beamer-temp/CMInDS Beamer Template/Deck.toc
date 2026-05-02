@@ -1,0 +1,10 @@
+\beamer@sectionintoc {2}{\textbf {\textcolor {purple}{Introduction}}}{3}{0}{1}
+\beamer@sectionintoc {3}{\textbf {\textcolor {purple}{Literature Review}}}{6}{0}{2}
+\beamer@sectionintoc {6}{\textbf {\textcolor {purple}{Study Objectives}}}{14}{0}{3}
+\beamer@sectionintoc {7}{\textbf {\textcolor {purple}{Study Methodology}}}{16}{0}{4}
+\beamer@sectionintoc {8}{\textbf {\textcolor {purple}{Exploratory Data Analysis}}}{20}{0}{5}
+\beamer@sectionintoc {9}{\textbf {\textcolor {purple}{Modeling}}}{22}{0}{6}
+\beamer@sectionintoc {10}{\textbf {\textcolor {purple}{Results}}}{24}{0}{7}
+\beamer@sectionintoc {11}{\textbf {\textcolor {purple}{Study Conclusions, Contributions, and Practical Implications }}}{26}{0}{8}
+\beamer@sectionintoc {12}{\textbf {\textcolor {purple}{Research Plan}}}{30}{0}{9}
+\beamer@sectionintoc {13}{\textbf {\textcolor {purple}{References}}}{31}{0}{10}
