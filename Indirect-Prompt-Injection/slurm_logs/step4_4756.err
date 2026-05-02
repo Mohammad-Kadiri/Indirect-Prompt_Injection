@@ -1,0 +1,285 @@
+2026-05-02 00:58:27,066 [INFO] Loading tokenizer: Qwen/Qwen3-8B
+2026-05-02 00:58:27,519 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-02 00:58:27,529 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-02 00:58:29,387 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-02 00:58:29,389 [WARNING] Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-02 00:58:29,398 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-02 00:58:31,069 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-02 00:58:31,308 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-02 00:58:32,650 [INFO] HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen3-8B "HTTP/1.1 200 OK"
+2026-05-02 00:58:32,651 [INFO] Loading model Qwen/Qwen3-8B in bf16 (eager attention)…
+2026-05-02 00:58:32,886 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-02 00:58:32,892 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+2026-05-02 01:00:49,748 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-02 01:00:49,806 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<01:18,  5.06it/s]Loading weights:   1%|          | 2/399 [00:00<01:27,  4.54it/s]Loading weights:   4%|▍         | 16/399 [00:00<00:09, 39.33it/s]Loading weights:   7%|▋         | 27/399 [00:00<00:06, 56.48it/s]Loading weights:  10%|▉         | 38/399 [00:00<00:05, 66.29it/s]Loading weights:  12%|█▏        | 49/399 [00:00<00:04, 72.81it/s]Loading weights:  15%|█▌        | 60/399 [00:01<00:04, 77.16it/s]Loading weights:  18%|█▊        | 71/399 [00:01<00:04, 80.65it/s]Loading weights:  21%|██        | 82/399 [00:01<00:03, 83.08it/s]Loading weights:  23%|██▎       | 93/399 [00:01<00:03, 84.92it/s]Loading weights:  26%|██▌       | 104/399 [00:01<00:03, 86.47it/s]Loading weights:  29%|██▉       | 115/399 [00:01<00:03, 87.52it/s]Loading weights:  32%|███▏      | 126/399 [00:01<00:03, 89.64it/s]Loading weights:  34%|███▍      | 137/399 [00:01<00:02, 90.06it/s]Loading weights:  37%|███▋      | 148/399 [00:02<00:02, 90.47it/s]Loading weights:  40%|███▉      | 159/399 [00:02<00:02, 90.80it/s]Loading weights:  43%|████▎     | 170/399 [00:02<00:02, 91.85it/s]Loading weights:  45%|████▌     | 181/399 [00:02<00:02, 91.65it/s]Loading weights:  48%|████▊     | 192/399 [00:02<00:02, 91.53it/s]Loading weights:  51%|█████     | 203/399 [00:02<00:02, 91.40it/s]Loading weights:  54%|█████▎    | 214/399 [00:02<00:02, 91.16it/s]Loading weights:  56%|█████▋    | 225/399 [00:02<00:01, 90.98it/s]Loading weights:  59%|█████▉    | 236/399 [00:02<00:01, 90.95it/s]Loading weights:  62%|██████▏   | 247/399 [00:03<00:01, 91.01it/s]Loading weights:  65%|██████▍   | 258/399 [00:03<00:01, 90.90it/s]Loading weights:  67%|██████▋   | 269/399 [00:03<00:01, 90.35it/s]Loading weights:  70%|███████   | 280/399 [00:03<00:01, 90.02it/s]Loading weights:  73%|███████▎  | 291/399 [00:03<00:01, 89.17it/s]Loading weights:  76%|███████▌  | 302/399 [00:03<00:01, 88.21it/s]Loading weights:  78%|███████▊  | 313/399 [00:03<00:00, 88.03it/s]Loading weights:  81%|████████  | 324/399 [00:03<00:00, 88.38it/s]Loading weights:  84%|████████▍ | 335/399 [00:04<00:00, 88.66it/s]Loading weights:  87%|████████▋ | 346/399 [00:04<00:00, 89.56it/s]Loading weights:  89%|████████▉ | 357/399 [00:04<00:00, 89.93it/s]Loading weights:  92%|█████████▏| 368/399 [00:04<00:00, 91.04it/s]Loading weights:  95%|█████████▍| 379/399 [00:04<00:00, 91.91it/s]Loading weights:  98%|█████████▊| 390/399 [00:04<00:00, 92.54it/s]Loading weights: 100%|██████████| 399/399 [00:04<00:00, 84.03it/s]
+2026-05-02 01:00:55,536 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-02 01:00:55,542 [INFO] HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen3-8B/b968826d9c46dd6066d109eabc6255188de91218/generation_config.json "HTTP/1.1 200 OK"
+2026-05-02 01:00:55,776 [INFO] HTTP Request: HEAD https://huggingface.co/Qwen/Qwen3-8B/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-05-02 01:00:55,786 [INFO] Model loaded successfully.
+2026-05-02 01:00:55,788 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:04,227 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:12,101 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:19,972 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:27,841 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:35,674 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:43,534 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:51,387 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:01:59,351 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:07,192 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:15,031 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:22,826 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:30,648 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:38,429 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:46,194 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:02:54,012 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:01,928 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:09,726 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:17,503 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:25,249 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:32,994 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:40,756 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:48,520 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:03:56,268 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:04,133 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:11,909 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:19,692 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:27,465 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:35,259 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:43,039 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:50,827 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:04:58,629 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:06,548 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:14,361 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:22,145 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:29,931 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:37,732 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:45,514 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:05:53,273 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:01,027 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:08,919 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:16,704 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:24,468 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:40,006 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:06:47,780 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:07:27,736 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:07:35,492 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:07:43,267 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:07:51,192 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:07:58,965 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:06,710 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:14,463 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:22,213 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:29,965 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:37,734 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:45,485 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:08:53,374 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:09:01,142 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:09:08,904 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:09:48,792 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:09:56,571 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:04,344 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:12,138 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:19,922 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:27,873 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:35,664 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:43,443 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:51,226 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:10:59,011 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:06,785 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:14,582 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:22,360 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:30,145 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:37,985 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:45,837 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:11:53,601 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:12:01,428 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:12:09,259 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:12:50,238 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:12:58,010 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:05,821 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:13,744 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:21,676 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:29,435 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:37,355 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:45,271 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:13:53,196 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:14:00,973 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:14:44,033 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:14:52,095 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:00,148 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:07,894 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:15,937 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:23,992 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:32,033 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:39,776 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:47,813 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:15:56,148 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:04,488 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:12,276 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:20,628 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:28,975 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:37,320 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:16:45,097 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:17:40,293 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:17:48,083 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:17:55,844 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:03,610 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:11,372 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:19,139 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:26,905 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:34,674 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:42,447 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:50,101 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:18:57,757 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:05,396 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:13,178 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:20,820 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:28,444 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:36,070 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:43,832 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:51,448 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:19:59,055 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:06,663 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:14,415 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:22,056 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:29,695 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:37,335 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:45,114 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:20:52,764 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:21:00,393 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:21:08,028 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:21:15,803 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:21:55,539 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:22:10,900 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:22:50,766 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:23:30,834 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:23:38,468 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:23:46,093 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:23:53,697 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:01,448 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:09,086 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:16,715 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:24,347 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:32,113 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:39,868 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:47,601 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:24:55,327 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:03,080 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:10,821 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:18,561 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:26,312 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:34,174 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:25:49,633 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:12,972 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:20,735 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:28,522 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:36,318 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:44,119 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:26:59,591 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:07,430 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:15,148 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:22,859 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:30,571 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:38,290 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:46,065 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:27:53,863 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:01,655 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:09,555 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:17,349 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:25,136 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:32,917 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:40,708 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:48,512 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:28:56,309 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:04,099 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:12,027 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:19,840 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:27,613 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:35,396 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:43,191 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:50,999 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:29:58,772 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:30:06,554 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:30:14,472 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:30:22,290 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:31:02,180 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:31:42,131 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:31:57,741 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:32:13,314 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:32:36,847 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:32:52,411 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:16,003 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:23,808 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:31,593 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:39,379 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:47,163 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:33:54,948 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:02,767 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:10,569 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:18,511 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:34,073 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:41,875 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:34:49,668 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:35:05,258 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:35:28,738 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:35:44,291 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:35:59,838 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:15,557 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:23,318 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:31,096 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:38,911 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:46,713 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:36:54,517 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:02,297 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:10,184 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:18,071 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:25,846 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:33,778 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:41,614 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:49,441 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:37:57,272 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:05,096 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:13,076 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:20,903 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:28,725 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:36,537 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:43,621 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:51,446 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:38:59,381 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:07,202 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:15,005 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:22,811 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:30,607 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:38,538 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:46,334 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:39:54,108 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:01,881 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:09,662 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:17,494 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:25,304 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:33,110 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:40,927 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:48,751 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:40:56,560 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:04,363 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:12,170 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:19,985 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:27,814 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:35,647 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:43,488 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:51,328 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:41:59,289 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:14,928 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:22,767 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:30,618 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:38,443 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:46,222 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:42:54,005 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:43:01,801 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:43:41,830 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:43:49,656 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:43:57,456 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:44:13,043 [INFO] Registered attention hooks on 36 layers.
+2026-05-02 01:44:20,859 [INFO] Registered attention hooks on 36 layers.
